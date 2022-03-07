@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    /* color: #40514E; */
+    background-color: #FABB51;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+
+.top {
+    /* background-color: #EAF6F6; */
+    /* padding-top: 100px; */
+    /* position: relative; */
+    /* margin-bottom: auto; */
+    margin: auto;
+    margin-top: 1%;
+}
+
+#chi {
+    width: 45%;
+}
