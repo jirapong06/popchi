@@ -24,9 +24,9 @@ function press() {
 }
   
 function release() {
-    setTimeout(function (){
-        document.getElementById("chi").src="images/chi1.png";
-    }, 100); 
+    // setTimeout(function (){
+    //     document.getElementById("chi").src="images/chi1.png";
+    // }, 100); 
     // document.getElementById("chi").src="images/chi1.png";
 }
 
