@@ -4,22 +4,48 @@ body {
     font-family: 'Chewy', cursive;
     /* color: #40514E; */
     background-color: #FABB51;
+    /* background-color: #D29D2B */
+    
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 86px;
+    margin-bottom: 0%;
+    color: #3E8E7E;
 }
 
+h2 {
+    /* font-size: 36px; */
+    margin-top: 0%;
+}
+
+.text {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%);
+}
 
 .top {
     /* background-color: #EAF6F6; */
     /* padding-top: 100px; */
     /* position: relative; */
     /* margin-bottom: auto; */
-    margin: auto;
+    /* margin: auto; */
     margin-top: 1%;
 }
 
 #chi {
     width: 45%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 8%;
+}
+
+.foot {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
 }
