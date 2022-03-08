@@ -14,21 +14,20 @@ var popSound = new Audio('sound/mixkit-message-pop-alert-2354 (mp3cut.net).mp3')
 // }        
 
 function press() {
-    document.getElementById("chi").src="images/chi2.png";
+    document.getElementById("chi").src="./images/chi2.png";
     popCount++;
     document.getElementById("counter").innerHTML = popCount;
     popSound.play();
     
-    setTimeout(function (){
-        document.getElementById("chi").src="images/chi1.png";
-    }, 100); 
-    // }, 500); 
+    // setTimeout(function (){
+    //     document.getElementById("chi").src="images/chi1.png";
+    // }, 100); 
         
 }
   
 function release() {
     // setTimeout(function (){
-    //     document.getElementById("chi").src="images/chi1.png";
+        document.getElementById("chi").src="./images/chi1.png";
     // }, 100); 
     // document.getElementById("chi").src="images/chi1.png";
 }

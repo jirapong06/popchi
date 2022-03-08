@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    /* color: #40514E; */
+    background-color: #FABB51;
+    /* background-color: #D29D2B */
+    
+}
+
+h1 {
+    font-size: 4rem;
+    color: #3E8E7E;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#chi {
+    height: auto;
+}
+/* .foot {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+} */
