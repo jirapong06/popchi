@@ -1,7 +1,8 @@
 let popChange = 1;
 let popCount = 0;
 
-var popSound = new Audio('sound/mixkit-message-pop-alert-2354 (mp3cut.net).mp3');
+var imageChi = document.getElementById("chi");
+var popSound = new Audio('sound/pop.mp3');
 
 // function imgChange() {
 //     var Image_Id = document.getElementById('chi');
@@ -14,7 +15,7 @@ var popSound = new Audio('sound/mixkit-message-pop-alert-2354 (mp3cut.net).mp3')
 // }        
 
 function press() {
-    document.getElementById("chi").src="./images/chi2.png";
+    imageChi.src="images/chi2.png";
     popCount++;
     document.getElementById("counter").innerHTML = popCount;
     popSound.play();
@@ -26,9 +27,9 @@ function press() {
 }
   
 function release() {
-    // setTimeout(function (){
-        document.getElementById("chi").src="./images/chi1.png";
-    // }, 100); 
+    setTimeout(function (){
+        imageChi.src="images/chi1.png";
+    }, 50); 
     // document.getElementById("chi").src="images/chi1.png";
 }
 
